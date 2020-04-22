@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"><![CDATA[
+    android:gravity="center"> ]]>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="305dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/hello_world_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FF0000"
+        android:textSize="@dimen/text_title_size"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/clothBtn"
+        android:layout_width="125dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="80dp"
+        android:text="CLOTHING"
+        android:textColor="#3F51B5"
+        android:textColorHighlight="#2196F3"
+        android:textColorHint="#E91E63"
+        app:layout_constraintBottom_toTopOf="@+id/moneyBtn"
+        app:layout_constraintEnd_toStartOf="@+id/foodBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/donatingIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="25dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="What would you like to donate today?"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/clothBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/foodBtn"
+        android:layout_width="125dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="80dp"
+        android:text="Food"
+        android:textColor="#E91E4D"
+        app:layout_constraintBottom_toTopOf="@+id/toiletriesBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clothBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/moneyBtn"
+        android:layout_width="125dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="59dp"
+        android:text="Money"
+        android:textColor="#9C27B0"
+        app:layout_constraintBottom_toTopOf="@+id/miscBtn"
+        app:layout_constraintEnd_toStartOf="@+id/toiletriesBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clothBtn" />
+
+    <Button
+        android:id="@+id/toiletriesBtn"
+        android:layout_width="125dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="59dp"
+        android:text="Toiletries"
+        app:layout_constraintBottom_toTopOf="@+id/miscBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/moneyBtn"
+        app:layout_constraintTop_toBottomOf="@+id/foodBtn" />
+
+    <Button
+        android:id="@+id/miscBtn"
+        android:layout_width="163dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:layout_marginBottom="78dp"
+        android:text="Miscellaneous"
+        android:textColor="#167919"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

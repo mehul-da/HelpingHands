@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "136698413680",
+    "firebase_url": "https://helping-hand-453f9.firebaseio.com",
+    "project_id": "helping-hand-453f9",
+    "storage_bucket": "helping-hand-453f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136698413680:android:e5140aa33f9af357f56ab5",
+        "android_client_info": {
+          "package_name": "com.example.disasterrelief"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136698413680-528tqk7olhl3v9ih9u0dp3o203a4th5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4T040ZdgVNLhnuuNWb0q5UbfxewZsic0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136698413680-528tqk7olhl3v9ih9u0dp3o203a4th5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

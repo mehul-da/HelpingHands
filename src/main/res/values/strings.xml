@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Disaster Relief</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world_text">Houston Helping Hand</string>
+    <string name="clothing">Clothing</string>
+    <string name="want_to_organize_a_donation_event">Want to organize a donation event?</string>
+</resources>
